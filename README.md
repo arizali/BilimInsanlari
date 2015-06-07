@@ -7,5 +7,6 @@ Daha fazlasý için lütfen sitemizi ziyaret ediniz.
 # http://webmasterturk.com/bilim/
 
 ## Kurulum ve ayrýntýlar için lütfen
- 
-# http://webmasterturk.com/bilim/
+# http://webmasterturk.com/yazilim/web-yazilim/ucretsiz-biyografi-sitesi-tasarimi-ve-scripti.html
+
+Yorumlarýnýzý esirgemezseniz sevinirim. 
