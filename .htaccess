@@ -1,0 +1,13 @@
+Options -Indexes +FollowSymlinks
+RewriteEngine on
+RewriteRule ^sitemap.xml map.php [L]
+
+RewriteRule ^(bilimdunyasi|haber)/([0-9]+)/([a-z0-9-_]+).html$ haber.php?tur=$1&id=$2&sef=$3 [L]
+RewriteRule ^icat/([0-9]+)/([a-z0-9-_]+).html$ icat.php?id=$1&sef=$2 [L]
+RewriteRule ^biyografi/([a-z0-9-_]+).html$ biyografi.php?sef=$1 [L]
+
+RewriteRule ^iletisim$ iletisim.php [L]
+
+RewriteRule ^hakkimizda$ hakkimizda.php [L]
+
+

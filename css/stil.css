@@ -1,0 +1,146 @@
+body { font-family:Tahoma, Geneva, sans-serif; font-size:12px; background:url(../images/allbg.png) repeat-y;}
+#biwrapper { margin:10px 25px; width:950px; }
+/*Header*/
+#biwrapper  #header { position:relative; height:70px; margin-bottom:10px; }
+#biwrapper  #header #logo{ position:absolute; height:61px; width:307px; display:block; top:4px; left:0px; }
+#biwrapper  #header #searcbox{ position:absolute; height:61px; width:404px; display:block; top:6px; right:0px; background:url(../images/aramawr.png) no-repeat bottom right; }
+#biwrapper  #header #searcbox .ustlink{ height:15px; margin-top:1px; width:402px; display:block; text-align:center; }
+#biwrapper  #header #searcbox .ustlink a{ height:15px; line-height:15px; padding:0px 10px; margin:0px 5px; display:inline-block; color:#C30; font-size:12px; font-weight:bold;  }
+#biwrapper  #header #searcbox form button.ara{ position:absolute; margin-right:10px; margin-top:10px; height:39px; width:152px; display:block; top:0px; right:0px; background:url(../images/sbut.png); border:none;  }
+#biwrapper  #header #searcbox form input.aratext{ position:absolute; margin-left:10px; margin-top:10px; height:39px; width:252px; display:block; top:0px; left:0px; background:none; border:none; font-size:15px; color:#cccccc; }
+
+#biwrapper #navigasyon { background:url(../images/navbg.png) repeat-x top left; height:42px; margin-bottom:10px; position:relative; }
+#biwrapper #navigasyon ul{ list-style:none; height:40px; display:block; left:0px; top:0px; margin-right:5px; }
+#biwrapper #navigasyon ul li.sol{display:block; float:left; }
+#biwrapper #navigasyon ul li.sol a{ height:40px; font-size:13px; line-height:40px; color:#fff; text-shadow:1px 1px 1px #C00; display:block; float:left; padding:0px 17px 0px 15px; background:url(../images/libg.png) no-repeat top right; }
+#biwrapper #navigasyon ul li.sol a:hover{ height:40px; font-size:13px; line-height:40px; color:#fff; text-shadow:1px 1px 1px #036; display:block; float:left; padding:0px 17px 0px 15px; background:url(../images/libgh.png) no-repeat top right; }
+#biwrapper #navigasyon ul li.sag{display:block; float:right; }
+#biwrapper #navigasyon ul li.sag a{display:block; float:right; width:16px; height:16px; margin:12px 4px; padding:0px 3px; opacity:0.7; }
+#biwrapper #navigasyon ul li.sag a:hover{display:block; float:right; width:16px; height:16px; margin:12px 4px; padding:0px 3px; opacity:1; }
+
+
+#mansethaber { height:230px; width:630px; }
+#mansethaber .ustlinkaa{  }
+#mansethaber .ustlinkaa ul.usts { list-style:none; display:block; float:none; }
+#mansethaber .ustlinkaa ul.usts li{ display:block; float:left; margin-right:5px;}
+#mansethaber .ustlinkaa ul.usts li a{ display:block; float:left; padding:0px 10px; height:30px; line-height:30px; color:#ff4a00; font-size:13px; letter-spacing:-0.2px; font-weight:900; background:#eee;  border-top:5px solid #5a5a5a; }
+#mansethaber .ustlinkaa ul.usts li a:hover{ display:block; float:left; padding:0px 10px;  color:#777;   border-top:5px solid #5a5a5a; }
+#mansethaber .ustlinkaa ul.usts li a.aktifs{ display:block; float:left; padding:0px 10px; height:30px; line-height:30px; color:#fefefe; background:#5a5a5a; }
+#mansethaber .alticerik { height:200px; overflow:hidden; background:#5a5a5a; padding:5px 5px; }
+#mansethaber .alticerik .gosterim{ position:relative; width:310px; height:200px; }
+#mansethaber .alticerik .gosterim .airesim{ position:absolute; width:310px; height:200px; display:block; z-index:1; }
+#mansethaber .alticerik .gosterim .descv{ position:absolute; width:310px; height:60px; display:block; z-index:100; background:#000; opacity:0.8; bottom:0px; left:0px; }
+#mansethaber .alticerik .gosterim .descv span.h2b{ display:block; overflow:hidden; padding:0px 5px; line-height:20px; height:20px; color:#fff; font-size:14px; font-weight:bolder; letter-spacing:-0.2px; text-shadow:1px 1px #000; }
+#mansethaber .alticerik .gosterim .descv span.h2c{ display:block; padding:0px 5px; line-height:13px; height:40px; overflow:hidden; color:#fff; font-size:11px; }
+
+#mansethaber .alticerik .gosterim_link{ width:305px; height:200px; padding-left:5px; }
+#mansethaber .alticerik .gosterim_link ul.alts{ list-style:none;}
+#mansethaber .alticerik .gosterim_link ul.alts li{ display:block; }
+#mansethaber .alticerik .gosterim_link ul.alts li a{ margin-bottom:1px; padding-left:5px; border-left:3px solid #fefefe; color:#fefefe; font-weight:700; font-size:13px; text-shadow:1px 1px 1px #000; line-height:19px; display:block; height:19px; overflow:hidden; }
+#mansethaber .alticerik .gosterim_link ul.alts li a.suanki{ border-left:3px solid #8fa9c6; color:#8fa9c6;  font-size:13px; text-shadow:1px 1px 1px #000;  }
+#mansethaber .alticerik .gosterim_link ul.alts li a.suanki:hover{ border-left:3px solid #8fa9c6; color:#8fa9c6;  font-size:13px; text-shadow:1px 1px 1px #000;}
+#mansethaber .alticerik .gosterim_link ul.alts li a:hover{  border-left:3px solid #09C; color:#09C;  font-size:13px; text-shadow:1px 1px 1px #000;  }
+
+.genisbaslik {position:relative; border-bottom:3px solid #4e9dbe; height:35px;  } 
+.genisbaslik h2.baslikbu{ line-height:35px; padding:0px;font-size:24px; letter-spacing:0.5px; font-weight:bolder; color:#4e9dbe; position:absolute; width:500px; }
+.genisbaslik a.tumu{ display:block; width:auto; position:absolute; right:0px; top:10px; padding:5px 0px; font-size:11px; letter-spacing:px; font-weight:normal; color:#666; }
+
+.biyobox { margin-bottom:10px; height:60px; position:relative; }
+.biyobox a .biyoresim{  width:90px; height:60px; position:absolute; display:block; top:0px; left:0px; }
+.biyobox a span.biyokim{ color:#4e9dbe; width:210px; height:20px; font-size:15px; font-weight:bolder; line-height:20px; position:absolute; display:block; top:5px; left:100px; }
+.biyobox a span.dogum{ width:210px; height:15px; line-height:15px; color:#666; font-size:10px; position:absolute; display:block; top:25px; left:100px; }
+.biyobox a span.sehir{ width:210px; height:15px; line-height:15px; font-size:11px; color:#900; position:absolute; display:block; top:45px; left:100px; }
+
+.biyolist { display:block; list-style:none; }
+.biyolist li{ display:block; position:relative; width:300px; height:40px; }
+.biyolist li a{background:url(../images/biyog.png) no-repeat center left; display:block;  height:40px; line-height:40px; }
+.biyolist li a:hover{background:url(../images/biyogh.png) no-repeat center left; display:block;  height:40px; line-height:40px; }
+.biyolist li a span.bspanad{ display:block; position:absolute; height:40px; top:0px; line-height:40px; left:40px; width:175px; font-size:14px; font-weight:bold; letter-spacing:-0.3px; color:#333; }
+.biyolist li a span.bspanhit{ display:block; position:absolute; height:40px; top:0px; line-height:40px; width:65px; right:15px; color:#666; font-size:10px; text-align:right; }
+.biyolist li a span.bspanhit strong{ font-weight:bold; color:#900; }
+
+.icatlist { display:block; list-style:none; }
+.icatlist li{ display:block; position:relative; width:300px; height:40px; }
+.icatlist li a{background:url(../images/icat.png) no-repeat center left; display:block;   height:40px; line-height:40px; }
+.icatlist li a:hover{background:url(../images/icats.png) no-repeat center left; display:block;  height:40px; line-height:40px; }
+
+.icatlist li a span.bspanad{ display:block; position:absolute; height:40px; top:0px; line-height:40px; left:40px; width:175px; font-size:14px; font-weight:bold; letter-spacing:-0.3px; color:#333; }
+.icatlist li a span.bspanhit{ display:block; position:absolute; height:40px; top:0px; line-height:40px; width:65px; right:15px; color:#666; font-size:10px; text-align:right; }
+.icatlist li a span.bspanhit strong{ font-weight:bold; color:#900; }
+
+/*Bloklar*/
+div.bloks { background:url(../images/blok/h.png) no-repeat top left; margin:0 5px;}
+div.bloks h2.blokbaslik{ height:50px; line-height:35px; padding:0px 10px; color:#fefefe; text-shadow:1px 1px 1px #000; font-size:16px; letter-spacing:0.4px; }
+div.bloks div.blokic{ padding:0px 10px; background:url(../images/blok/m.png) repeat-y top left; }
+div.bloks div.blokalt{ background:url(../images/blok/f.png) no-repeat top left; height:10px; }
+
+#bifooter { background:url(../images/footer.png) no-repeat top left; height:200px; position:relative; width:950px; }
+#bifooter .footic{ position:absolute; bottom:20px; height:80px; left:10px; width:580px; line-height:16px; font-size:12px; }
+#bifooter .footic a{ color:#900; font-weight:bold; letter-spacing:1px;  }
+#bifooter .footic strong{font-weight:bolder; }
+/*Definitions*/
+.w1 { width:630px; }
+.w1y { width:630px; overflow:hidden; }
+.w1x { width:640px; }
+
+.w2 { width:310px; }
+.w3 { width:230px; }
+.ayrac { height:10px;}
+.cl { clear:left; }
+.cr { clear:right; }
+.cb { clear:both; }
+.fl { float:left; }
+.fr { float:right; }
+.ml { margin-left:10px; }
+.mr { margin-right:10px; }
+.mb { margin-bottom:10px; }
+.dy { display:block; }
+.dn { display:none; }
+.bge4 { background:#e4e4e4; padding:5px 0px; }
+.min400 { min-height:800px;}
+
+.icerikalani { line-height:130%; }
+.icerikalani p{ margin-bottom:5px; padding:3px 5px; }
+.icerikalani div{ margin-bottom:10px; padding:3px 5px; }
+.icerikalani strong{ font-weight:bold; }
+.icerikalani .descbox { width:300px; height:auto; float:left; margin:0px 10px 10px 0px; padding:0px; } 
+.icerikalani .descbox img.ccres{ width:300px; height:auto; } 
+.icerikalani .descbox div{ margin:0px; padding:0px; } 
+
+.yorum_wrapper { padding:10px; background:#eee; border-top:3px inset #ccc;  border-bottom:2px dotted #bbb;  }
+.yorum_bilgi {height:70px; position:relative;  }
+.yorum_bilgi .y_isim{ position:absolute; top:5px; left:70px; display:block; font-size:20px; font-weight:bold; text-shadow:1px 1px 1px #fefefe; color:#900; height:30px; overflow:hidden; line-height:30px; }
+.yorum_bilgi .y_tarih{ position:absolute; top:35px; left:70px; display:block; font-size:10px; letter-spacing:0px; font-weight:lighter; text-shadow:1px 1px 1px #fefefe; color:#111; height:15px; overflow:hidden; line-height:15px; }
+.yorum_bilgi .img_rz{  height:60px; width:60px; position:absolute; top:0px; left:0px; overflow:hidden; background:#036; }
+.yorum_mesaj { line-height:130%; padding:10px; background:#fefefe; border:1px inset #ddd; margin-top:3px; }
+
+.w4 { width:125px; }
+.w5 { width:475px; }
+.dr { border-right:2px dotted #666; }
+.db { border-bottom:2px dotted #666; }
+
+#beta_test { background:url(http://beta.biliminsanlari.com/images/betaikon.png) no-repeat top left; width:120px; height:120px; position:fixed; z-index:50000; left:995px; top:10px;  }
+
+.tabloliste { width:100%; margin:10px 0px; display:block;}
+.tabloliste thead{ height:30px;}
+.tabloliste thead tr{ margin-bottom:5px; }
+.tabloliste thead tr th{ height:27px; line-height:27px; padding:0px 10px; background:#fefefe; border-bottom:3px solid #ccc; color:#666; font-size:18px; font-weight:bolder; letter-spacing:-1px;}
+.tabloliste tbody tr{ }
+.tabloliste tbody tr.st1 td{ padding:10px; background:#eee; border-bottom:3px solid #ccc; line-height:15px; font-size:12px; color:#000;}
+.tabloliste tbody tr.st2 td{ padding:10px; background:#fefefe; border-bottom:3px solid #ddd; line-height:15px; font-size:12px; color:#333;}
+.tbaslik { font-size:13px; color:#036; font-weight:bold; letter-spacing:1px; display:block; line-height:18px; }
+.ttarih { font-size:10px; color:#aaa; font-weight:normal; letter-spacing:1px; display:block; line-height:14px; }
+.ticerik { font-size:11px; color:#111; font-weight:lighter; display:block; line-height:13px; }
+.imres { float:left; margin-right:5px; }
+.tabloliste tbody tr.st1 .tbilgi { display:block; color:#000;  }
+.tabloliste tbody tr.st2 .tbilgi { display:block; color:#666; }
+.tbilgi strong { font-weight:bolder; color:#033; font-size:12px; }
+.butona { display:block; border:1px dotted #333; background:#fefefe; color:#900; padding:2px 5px; text-align:center; margin:2px 0px;  }
+.butona:hover { display:block; border:1px dotted #900; background:#f00; color:#fefefe; padding:2px 5px; text-align:center; margin:2px 0px;  }
+.tcc { text-align:center; } 
+.tcl { text-align:left; } 
+.metindiv { margin:10px 0px; font-size:13px; }
+.metindiv strong{ font-weight:bold;}
+.metindiv p{ margin:5px 10px; line-height:120%; }
+.metindiv ul{ margin:10px 10px; }
+.metindiv ul li{ display:block; margin-bottom:5px; border-left:3px solid #ccc; margin-left:20px; padding-left:5px; }

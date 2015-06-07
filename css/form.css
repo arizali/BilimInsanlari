@@ -1,0 +1,68 @@
+input, select, textarea { outline:none; }
+.cke_focus { outline:0 !important; }
+.form-div { margin-bottom:5px; padding-bottom:5px; border-left:3px solid #eee; }
+.form-div label{ display:inline-block; width:77px; text-align:right; line-height:20px; }
+.form-div input[type=text],.form-div input[type=password]{ display:inline-block; width:178px; height:19px; padding:5px; border:1px inset #dedede; margin-left:10px;}
+.form-div2 { padding:0px 0px 5px 0px; text-align:right; }
+.form-div2 input[type="submit"] {
+	background: #e3e3e3;
+	border: 1px solid #ccc;
+	color: #333; font-family: 'Exo', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 20px 10px;
+	text-align: center;
+	cursor:pointer;
+	margin: 0px 0px 0px 0px;
+	text-shadow: 0px 1px 0px #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px #fff inset;
+	-webkit-box-shadow: 0px 0px 2px #fff inset;
+	box-shadow: 0px 0px 2px #fff inset;
+	display:inline-block;
+}
+.form-div2 input[type="submit"]:hover {
+	background: #d9d9d9;
+	-moz-box-shadow: 0px 0px 2px #eaeaea inset;
+	-webkit-box-shadow: 0px 0px 2px #eaeaea inset;
+	box-shadow: 0px 0px 2px #eaeaea inset;
+	color: #222;
+}
+.uzun145 { width:145px; }
+.uzun150 { width:150px; }
+.uzun200 { width:200px; }
+.uzun300 { width:300px; }
+.uzun310 { width:312px; }
+.uzun315 { width:324px; }
+.uzun400 { width:400px; }
+.uzunfull { width:618px; }
+.formwr div{ margin-bottom:10px; }
+.formwr div label{ display:block; margin-bottom:5px; font-size:14px; letter-spacing:1px;  }
+.formwr div input[type=text] { display:inline-block; height:19px; padding:5px; border:1px inset #dedede; }
+.formwr div .select { display:inline-block; height:29px; padding:5px; border:1px inset #dedede; }
+
+.formwr div .textall{ display:inline-block; height:19px; padding:5px; border:1px inset #dedede; }
+
+.formwr div input[type="submit"] {
+	background: #e3e3e3;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 20px 10px;
+	text-align: center;
+	cursor:pointer;
+	margin: 0px 0px 0px 0px;
+	text-shadow: 0px 1px 0px #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px #fff inset;
+	-webkit-box-shadow: 0px 0px 2px #fff inset;
+	box-shadow: 0px 0px 2px #fff inset;
+	display:inline-block;
+}
+
+.hata_ul_wr { margin:0px 0px 10px 0px; }
+.hata_ul_wr li{ display:block; margin:5px 0px; border-left:6px solid #F00; color:#F00; padding:0px 10px; }
