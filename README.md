@@ -9,4 +9,4 @@ Daha fazlasý için lütfen sitemizi ziyaret ediniz.
 ## Kurulum ve ayrýntýlar için lütfen
 # http://webmasterturk.com/yazilim/web-yazilim/ucretsiz-biyografi-sitesi-tasarimi-ve-scripti.html
 
-Yorumlarýnýzý esirgemezseniz sevinirim. 
+Yorumlarinizi esirgemezseniz sevinirim. 
